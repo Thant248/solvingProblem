@@ -21,10 +21,8 @@ class RedestribteCharacter{
 
             for (char c : word.toCharArray()){
                  
-                var m = map.put(c, map.getOrDefault(c, 0) + 1);
-               
-
-
+                 map.put(c, map.getOrDefault(c, 0) + 1);
+            
             }
         }
 
